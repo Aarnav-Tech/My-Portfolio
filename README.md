@@ -1,30 +1,51 @@
 # Portfolio Website
 
-This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.
+A sleek, responsive portfolio website built with **Next.js** and **Tailwind CSS** to showcase your skills, projects, and achievements in a modern, elegant design.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/judygab/nextjs-portfolio.git`
-2. Navigate to the project directory: `cd portfolio-website`
-3. Install the dependencies: `npm install`
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Aarnav-Tech/My-Portfolio.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd My-Portfolio
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
 
 ## Usage
 
-1. Start the development server: `npm run dev`
-2. Open your browser and visit `http://localhost:3000` to view the website.
+1. Start the development server:
 
-## Dependencies
+   ```bash
+   npm run dev
+   ```
 
-The following dependencies are required for this project:
+2. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view your portfolio.
 
-- Next.js: A React framework for server-side rendering and static site generation.
-- Tailwind CSS: A highly customizable CSS framework.
-- React: A JavaScript library for building user interfaces.
-- React Icons: A collection of popular icons for React projects.
-- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
-- Resend: Resend is the email API for developers.
+## Built With
+
+- **Next.js** — React framework for server-rendered and statically generated websites  
+- **Tailwind CSS** — Utility-first CSS framework for rapid UI development  
+- **React** — JavaScript library for building user interfaces  
+- **React Icons** — Popular icon library for React projects  
+- **TypeScript** — Typed superset of JavaScript for improved developer experience  
+- **Resend** — Email API integration for handling contact form submissions  
+
+## Customization
+
+- Update your skills, projects, and personal details by editing the respective components and data files in the project.
+- Tailwind CSS configuration is available for theme customization and styling.
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
-
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code under these terms.
