@@ -4,15 +4,17 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* Cyan to Teal gradient colors */
+  --background-start-rgb: 6, 182, 212;  /* cyan-500 */
+  --background-end-rgb: 20, 184, 166;   /* teal-500 */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    /* Dark mode cyan to teal gradient */
+    --background-start-rgb: 22, 163, 74;  /* teal-700 */
+    --background-end-rgb: 14, 116, 144;   /* cyan-700 */
   }
 }
 
@@ -20,8 +22,7 @@ body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
-      transparent,
+      rgb(var(--background-start-rgb)),
       rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    );
 }
